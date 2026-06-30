@@ -112,13 +112,77 @@
 # print("your lname is", lname)
 # print("your fullname is", fname , lname)
 
-num1 = int(input("enter first number")) # "5"
-num2 = int(input("enter second number")) # "6"
-sum = num1 + num2
-# sum = "5 "+ "6" = 56 (concatenation)
-print("sum is =",sum)
+# num1 = int(input("enter first number")) # "5"
+# num2 = int(input("enter second number")) # "6"
+# sum = num1 + num2
+# # sum = "5 "+ "6" = 56 (concatenation)
+# print("sum is =",sum)
 
 # assignment 
 # 1. input for age which should be in integer
 # 2. multiply 2 numbers using input (int)
 # 3. fullname (string)
+
+
+ # -- list
+# std1 = "asad"
+# std2 = "kashan"
+# std3 = "saif"
+# std4 = "bilal"
+
+#list rules
+#1.[]
+#2. , [,] -comma seperated
+# index - start from zero (0)
+#reserve keywords - int - float - str - bool
+studentList = ["asad", "kashan","saif","saif","bilal"]
+#  index          0        1        2     3        4
+#.  index 4(start from zero)
+#.  length 5 (total elements)
+#print(type(studentList))
+print(studentList)
+
+# stdlist = ["ali","asad","bilal"]
+# print(len(stdlist))
+# print(stdlist[0])
+# print(stdlist[1])
+# print(stdlist[2])
+
+# print(stdlist[-2])
+
+stddata = ["ali",20,4.5,True]
+# print(stddata)
+# list cannot change order
+# list can modify(add data, remove data)
+#stddata[4] = "bilal" #js
+# stddata.append("bilal")
+# stddata.insert(2,"asad")
+# print(stddata)
+
+# list1 = ["a","e","c"]
+# list2 = ["d","e","f"]
+# # combined
+# list1.extend(list2)
+# print(list1)
+
+# list3= [ "a","b","c"]
+# list3.remove("b")
+# print(list3)
+
+# js - pop and push
+# pop(remove from last)
+# push(add in last)
+
+list3= ["a","b","c"]
+#list3.pop(1) # 1 is an index number
+# list3.pop() - method
+#del - keyword
+# del list3[0]
+list3.clear()
+print(list3)
+
+assignment 
+use all list methods and keywords 
+create an list and remove center value
+create an list and combine with another list 
+remove the list elements using index number not an element
